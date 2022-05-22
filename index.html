@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #navbar{
+            display: flex;
+            height:30px;
+            width: 1300px;
+            margin-left: 10px;
+            background-color: rgb(22, 15, 15);;
+            color: antiquewhite;
+            margin-bottom: 20px;
+            justify-content: space-evenly;
+
+        }
+        #navbar>div{
+            color: antiquewhite;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="navbar">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="batch.html">Dashboard</a></div>
+      
+    </div>
+
+    <form id="form" onsubmit="storeData(event)">
+        <input type="text" id="name" placeholder="enter your name"><br><br>
+               
+        <input type="number" id="studentid" placeholder="enterid"/><br><br>
+
+        <input type="number" id="unit" placeholder="enter your unit"><br><br>
+
+        <input type="src" id="image" placeholder="enter url"><br><br>
+        <input type="nubmer" id="batch" placeholder="enter your batch"><br><br>
+        <input type="submit" id="submit">
+    
+    </form>
+</body>
+</html>
+
+<script src="./scripts/index.js"></script>
+    
+   
